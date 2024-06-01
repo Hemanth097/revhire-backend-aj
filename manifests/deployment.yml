@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: revhire-user
-          image: p2reg.azurecr.io/ajaymithireddyprevhirebk:15
+          image: p2reg.azurecr.io/ajaymithireddyprevhirebk:17
           env:
           - name : DB_URL
             valueFrom: 
