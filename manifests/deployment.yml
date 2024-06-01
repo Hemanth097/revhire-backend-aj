@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: ajaymithireddyprevhirebk 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ajaymithireddyprevhirebk
+  template:
+    metadata:
+      labels:
+        app: ajaymithireddyprevhirebk 
+    spec:
+      containers:
+        - name: ajaymithireddyprevhirebk 
+          image: p2reg.azurecr.io/ajaymithireddyprevhirebk
+          ports:
+          - containerPort: 8082
